@@ -3,10 +3,10 @@ const stickySections = [...document.querySelectorAll('.sticky')]
 var body = document.getElementsByTagName('body')[0];
 var percentage = 0;
 let images = [
-    '/images/gallery_img_1.png',
-    '/images/gallery_img_2.png',
-    '/images/gallery_img_3.png',
-    '/images/gallery_img_4.png',
+    './images/gallery_img_1.png',
+    './images/gallery_img_2.png',
+    './images/gallery_img_3.png',
+    './images/gallery_img_4.png',
 ]
 
 images.forEach(img => {
